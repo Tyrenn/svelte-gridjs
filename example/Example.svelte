@@ -1,6 +1,5 @@
 <script>
-	import Grid from "../src/grid.svelte";
-	import {_} from "../src/plugins.js";
+	import Grid, {_} from "../src/grid.svelte";
 	import MockComponent from './MockComponent.svelte'
 	
 	const columns = [

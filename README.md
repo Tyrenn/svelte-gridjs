@@ -19,7 +19,7 @@ npm install --save gridjs
 Import the Grid component first
 
 ```js
-import Grid from "@tyren/svelte-gridjs/grid.svelte";
+import Grid from "@tyren/svelte-gridjs";
 ```
 
 ```jsx
@@ -45,7 +45,7 @@ You can bind your svelte components in Table cells (both in header and body cell
 The composer function `_` allows you to pass a svelte component, props and events with listeners to attach to it. It is fully functionnal with svelte reactivity. Component will unmount properly.
 
 ```js
-import {_} from "@tyren/svelte-gridjs";
+import Grid, {_} from "@tyren/svelte-gridjs";
 import MockComponent from "./MockComponent.svelte";
 ```
 
@@ -73,7 +73,7 @@ import MockComponent from "./MockComponent.svelte";
 
 ## Example
 
-See the [Svelte example](./test/Example.svelte).
+See the [Svelte example](./example/Example.svelte).
 
 ## License
 
