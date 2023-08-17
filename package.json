@@ -1,0 +1,35 @@
+{
+	"name": "svelte-gridjs",
+	"version": "1.0.0",
+	"description": "\"A Svelte wrapper component for Grid.js\"",
+	"main": "plugin.js",
+	"files": [
+		"src/**"
+	],
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Tyrenn/svelte-gridjs.git"
+	},
+	"keywords": [
+		"svelte",
+		"gridjs",
+		"grid",
+		"sveltekit",
+		"js"
+	],
+	"author": "Guillaume Vailland @Tyrenn",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Tyrenn/svelte-gridjs/issues"
+	},
+	"homepage": "https://github.com/Tyrenn/svelte-gridjs#readme",
+	"dependencies": {
+		"gridjs": "^6.0.6"
+	}
+}

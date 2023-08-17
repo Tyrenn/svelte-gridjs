@@ -5,7 +5,7 @@ Svelte component for [Grid.js](https://gridjs.io/). Highly inspired by abandoned
 ## Install
 
 ```bash
-npm install --save svelte-gridjs
+npm install --save @tyren/svelte-gridjs
 ```
 
 Also, make sure you have Grid.js installed already as it's a peer dependency of `gridjs-svelte`:
